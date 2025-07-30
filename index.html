@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopsy - Welcome</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 80%;
+      max-width: 500px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 40px;
+    }
+
+    .btn-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    button {
+      padding: 12px 25px;
+      font-size: 1.2em;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Shopsy</h1>
+    <p class="description">Your one-stop shop for amazing products at unbeatable prices! Choose an option below to get started.</p>
+    
+    <div class="btn-container">
+      <button onclick="window.location.href='login.html'">Login</button>
+      <button onclick="window.location.href='register.html'">Register</button>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
